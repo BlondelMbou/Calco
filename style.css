@@ -15,21 +15,22 @@ body
 }
  .calculatrice
 {
-    background-color: black;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-blend-mode: multiply,multiply;;
     display: flex;
     flex-direction: column;
     padding: 15px;
     border-radius: 5px;
-    box-shadow:0 5px black; 
+    box-shadow:0 10px black; 
     
 } 
 .ecran
 {
     width: 100%;
     height: 100px; 
-   background-color: turquoise;
-   background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
- background-blend-mode: normal, lighten, soft-light;
+   /* background-color: turquoise; */
+   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    background-blend-mode: normal, lighten, soft-light;
     margin-bottom: 10px;
     border-radius: 8px;
     display: flex;
@@ -49,7 +50,7 @@ body
     /* border: 2px solid cornsilk; */
    font-display: relative;
     border-radius: 0px;
-    font-size: 50px;
+    font-size: 50px
     
 
 }
